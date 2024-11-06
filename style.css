@@ -1,0 +1,114 @@
+body{
+
+    background-color: #F5D04E;
+}
+
+.card{
+    background-color: aliceblue;
+    height: 450px;
+    width: 320px;
+    position: absolute;
+    margin: auto;
+    inset: 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.card img{
+   width:80%;
+   height: 200px;
+   margin-top: 3%;
+   margin-left: 6%;
+   margin-right: 6%;   
+  
+   
+   
+}
+
+
+
+/* Body Styling */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #FFD74E; /* Background color similar to the image */
+    font-family: Arial, sans-serif;
+}
+
+/* Card Container Styling */
+.card {
+    width: 300px;
+    background-color: #fff;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(.9, 0.9, 0.9, 0.9);
+    overflow: hidden;
+    font-size: 16px;
+    
+}
+
+
+.card-content .tag{
+
+    background-color: #F5D04E;
+    padding: 5px 7px;
+    font-family: sans-serif;
+    font-size: x-small;
+    font-weight: bold;
+    display: inline-block;
+    margin-right: 70%;
+    
+
+
+}
+
+.card-content .date{
+    margin-top: 15px;
+    margin-right: 55.5%;
+    font-size: 10px;
+    
+}
+
+.card-content .Heading{
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 20px;
+    align-content:start;
+    font-family: serif sans-serif;
+    font-weight: bold;
+    font-size: large;
+    margin-inline-end: 10%;
+
+
+}
+
+.card-content .text{
+    align-self: center;
+    margin: 20px 10px 10px 10px;
+    font-family: ;
+
+}
+
+/* Style for the author container */
+.author {
+    display: flex;            /* Ensures elements are aligned horizontally */
+    align-items: center;      /* Aligns items vertically centered within the row */
+    gap: 5px;                /* Adds space between the avatar and name */
+}
+
+/* Style for the author image */
+.author img {
+    width: 32px;              /* Sets the width of the avatar image */
+    height: 32px;             /* Sets the height of the avatar image */
+    border-radius: 50%;       /* Makes the image circular */
+}
+
+/* Style for the author name */
+.name {
+    font-size: 14px;          /* Adjusts font size */
+    color: #333;              /* Text color */
+    font-weight: bold;        /* Makes the text bold */
+    margin-top: 10px;
+    margin-right: 25px;
+}
